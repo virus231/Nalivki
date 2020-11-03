@@ -13,5 +13,23 @@
 .links {
     a {
         margin: 15px 0;
+      svg {
+        //color: black;
+        &:hover {
+          fill: red;
+        }
+      }
     }
+}
+
+.more {
+  span {
+    color: white;
+  }
+  a {
+    color: white !important;
+    span {
+      color: white !important;
+    }
+  }
 }
