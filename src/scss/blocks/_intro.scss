@@ -1,0 +1,17 @@
+.intro {
+    // position: absolute;
+    // top: 100px;
+    // z-index:3;
+    background: url('../public/images/intro-bg.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    transition: all .22s;
+    overflow: hidden;
+}
+
+.links {
+    a {
+        margin: 15px 0;
+    }
+}
