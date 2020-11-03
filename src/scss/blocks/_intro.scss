@@ -13,12 +13,13 @@
 .links {
     a {
         margin: 15px 0;
-      svg {
-        //color: black;
-        &:hover {
-          fill: red;
+
+        svg path {
+          transition: all .33s;
         }
-      }
+        &:hover svg path {
+          fill: #8E1717 !important;
+        }
     }
 }
 
