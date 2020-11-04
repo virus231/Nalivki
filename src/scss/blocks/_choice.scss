@@ -29,3 +29,19 @@
     }
   }
 }
+
+.info {
+  &-title {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #8E1717;
+  }
+  &-item {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
