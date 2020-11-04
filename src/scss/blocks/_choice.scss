@@ -56,11 +56,87 @@
     &__buy {
       color: white;
       background: #8E1717;
+      transition: all .33s;
 
       &:hover {
+        background: #C56767;
         color: white;
         text-decoration: none;
       }
     }
   }
+}
+
+.view-site {
+  -webkit-font-smoothing: subpixel-antialiased;
+  --ui-icon-size-xs: 26px;
+  --ui-icon-size-sm: 31px;
+  --ui-icon-size-md: 39px;
+  --ui-icon-size-lg: 47px;
+  --ui-icon-size: 39px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: left;
+  color: #dd4242;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+  cursor: pointer;
+  display: inline-block;
+  transition: all .33s;
+
+  span {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  &:hover {
+    color: #8E1717;
+    text-decoration: none;
+  }
+}
+
+
+.view-site svg {
+  width: 16px;
+  height: 10px;
+  transition: all .33s;
+
+  path {
+    transition: all .33s;
+  }
+
+  &:hover path {
+    color: #8E1717 !important;
+  }
+}
+
+.line-portfolio {
+  height: 2px;
+  background: rgba(255, 255, 255, .2);
+  position: relative;
+  width: 100%
+}
+
+.more-block .line-portfolio:before {
+  content: '';
+  position: absolute;
+  width: 69px;
+  height: 2px;
+  background-color: red;
+  display: inline-block;
+  top: 0;
+  -webkit-transition: width 1s;
+  transition: width 1s
+}
+
+.more-block:hover .line-portfolio::before {
+  width: 100%;
+  transition: all 1.5s;
 }
