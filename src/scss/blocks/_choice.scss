@@ -21,8 +21,8 @@
 
     div {
       position: absolute;
-      top: 15%;
-      left: 24%;
+      top: 8%;
+      left: 20%;
 
     }
     img {
@@ -43,5 +43,24 @@
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
+  }
+
+  &-bottom {
+    &__price {
+      font-family: Oswald;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+    }
+
+    &__buy {
+      color: white;
+      background: #8E1717;
+
+      &:hover {
+        color: white;
+        text-decoration: none;
+      }
+    }
   }
 }
