@@ -1,0 +1,62 @@
+.contacts {
+  background: url('../public/images/map.png') no-repeat;
+  background-size: contain;
+  height: 70vh;
+  background-position-x: right;
+
+  &-block {
+    h6 {
+      font-family: Oswald;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      color: #8E1717;
+    }
+
+    p {
+        .number{
+          font-family: Oswald;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 22px;
+          color: #8E1717;
+        }
+
+        .address {
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 22px;
+          color: #1C1717;
+        }
+    }
+
+    .time {
+      font-family: Oswald;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      color: #8E1717;
+
+      &-work {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #1C1717;
+      }
+    }
+
+    .social-links {
+      a {
+        display: inline-block;
+        margin-right: 30px;
+        transition: all .55s;
+
+        &:hover {
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
+}
