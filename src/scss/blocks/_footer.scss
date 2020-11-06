@@ -1,0 +1,31 @@
+
+
+.footer {
+  background: #301717;
+  &-links {
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: white;
+    }
+  }
+
+
+  .danger {
+    span {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.58);
+    }
+  }
+}
+
+.search, .politics, .rights {
+  color: white;
+}
+
+
+

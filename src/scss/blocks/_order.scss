@@ -1,0 +1,50 @@
+.order {
+  background: url('../public/images/order-bg.png') no-repeat;
+  background-size: cover;
+
+  &-title {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #EEDCDC;
+  }
+
+  &-text {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+
+  &-time {
+    background: rgba(142, 23, 23, 0.15);
+    backdrop-filter: blur(7px);
+
+    input {
+      border: none;
+      background: rgba(213, 170, 170, 0.13);
+      border: 2px solid #8E1717;
+      outline: none;
+      font-family: Oswald;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: white;
+      padding-left: 10px;
+
+      &::placeholder {
+        padding-left: 10px;
+        padding-top: 15px;
+        color: white !important;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+
+      }
+    }
+
+  }
+}
