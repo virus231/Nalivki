@@ -6,3 +6,8 @@ $('#alert').on('click', () => {
 });
 // Your jQuery code
 
+$('#toggle').click(function() {
+  $(this).toggleClass('active');
+  $('#overlay').toggleClass('open');
+});
+

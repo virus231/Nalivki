@@ -8,10 +8,8 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-
     <title>Наливки</title>
     <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
-
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -19,7 +17,7 @@
       <div class="container">
         <div class="row d-flex py-0 align-items-center justify-content-between">
           <div class="col-lg-5 p-0">
-            <div class="d-flex align-items-center justify-content-around">
+            <div class="d-flex label align-items-center justify-content-around">
               <a href="#!" class="text-uppercase order-table px-4 py-3">
                 Замовити Столик
               </a>
@@ -30,12 +28,12 @@
             </div>
           </div>
           <div class="col-lg-3">
-            <a href="#!">
+            <a href="#!" class="label">
               <img src="./public/images/logo.svg" alt="">
             </a>
           </div>
-          <div class="col-lg-3 d-fex justify-content-end">
-            <div class="d-flex align-items-center justify-content-around">
+          <div class="col-lg-3 justify-content-end">
+            <div class="label d-flex align-items-center justify-content-around">
               <a href="#!">
                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0)">
@@ -56,30 +54,30 @@
               <span class="menu-lable d-none d-md-block text-uppercase">
                 Меню
               </span>
-              <div id="nav-icon3" class="float-right">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+              <div class="button_container" id="toggle">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
               </div>
-              <!-- <div class="overlay" id="overlay">
+              <div class="overlay" id="overlay">
                 <nav class="overlay-menu">
                   <ul>
-                    <li><a href="#">Про компанію</a></li>
-                    <li><a href="#">Класичні стилі</a></li>
-                    <li><a href="#">Сучасні стилі</a></li>
-                    <li><a href="#">Тематичні вироби</a></li>
-                    <li><a href="#">Процес виробництва</a></li>
-                    <li><a href="#">Залишити заявку</a></li>
-                    <li><a href="#">Контакти</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
                   </ul>
                 </nav>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
       </div>
     </header>
+
+
+
+
 
     <section class="intro d-flex align-items-center">
       <div class="container mt-5">
@@ -138,6 +136,20 @@
           </div>
         </div>
       </div>
+      <wrapper>
+        <div class="dws">
+          <div class="pulse">
+            <div class="bloc"></div>
+            <div class="phone">
+              <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M31.2719 22.3171C29.1902 22.3171 27.1463 21.9915 25.2095 21.3515C24.2604 21.0278 23.0937 21.3247 22.5145 21.9196L18.6915 24.8056C14.258 22.4389 11.527 19.7088 9.19266 15.3086L11.9937 11.5852C12.7214 10.8585 12.9824 9.79687 12.6697 8.80078C12.0269 6.85374 11.7003 4.81082 11.7003 2.72832C11.7004 1.22391 10.4765 0 8.97219 0H2.72823C1.22391 0 0 1.22391 0 2.72823C0 19.9717 14.0284 34 31.2719 34C32.7762 34 34.0001 32.7761 34.0001 31.2718V25.0452C34 23.541 32.7761 22.3171 31.2719 22.3171Z" fill="white"/>
+              </svg>
+
+            </div>
+            <div class="text">Кнопка зв'язку</div>
+          </div>
+        </div>
+      </wrapper>
     </section>
 
     <section class="promo">
@@ -432,7 +444,7 @@
     <section class="contacts-info py-5 d-flex align-items-center justify-content-center">
       <div class="container my-5">
         <div class="row">
-          <div class="col-5">
+          <div class="col-4">
             <div class="contacts-block">
               <h6>
                 Контакти
@@ -586,7 +598,7 @@
             </a>
           </div>
           <div class="col-2 text-right">
-            <a href="#">
+            <a href="#" class="siteen">
               Made with Siteen
             </a>
           </div>

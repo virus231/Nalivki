@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a60f4e0-194b-4fce-bf37-1f7d80f48f17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_order.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_intro.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,9 @@
       <workItem from="1604443756722" duration="6989000" />
       <workItem from="1604501774098" duration="4375000" />
       <workItem from="1604675638458" duration="4371000" />
-      <workItem from="1604682344442" duration="4907000" />
+      <workItem from="1604682344442" duration="5223000" />
+      <workItem from="1604765777208" duration="1293000" />
+      <workItem from="1604955263013" duration="4618000" />
     </task>
     <servers />
   </component>
@@ -128,9 +130,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604684939216" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604449551883">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604689656858">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604449551883" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604689656858" />
   </component>
 </project>

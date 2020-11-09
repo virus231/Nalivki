@@ -23,8 +23,14 @@
   }
 }
 
-.search, .politics, .rights {
+.search, .politics, .rights, .siteen {
   color: white;
+  transition: all .33s;
+
+  &:hover {
+    text-decoration: none;
+    color: #C56767;
+  }
 }
 
 
