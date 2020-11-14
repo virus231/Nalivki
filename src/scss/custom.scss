@@ -4,7 +4,13 @@ body {
     font-family: 'Oswald', 'Raleway', sans-serif;
 }
 
+ul,li {
+  list-style: none;
+}
 
+.container {
+  max-width: 1270px;
+}
 
 .btn {
   display: inline !important;
