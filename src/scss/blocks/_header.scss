@@ -12,6 +12,10 @@ $button-width: 22px;
   left: 0;
   right: 0;
   z-index: 101;
+
+  &-catalog {
+    background: #301717;
+  }
 }
 
 .label {

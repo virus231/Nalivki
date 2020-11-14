@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Наливки</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header header-catalog py-0">
+    <div class="container">
+      <div class="row d-flex pt-2 pt-md-0 align-items-center justify-content-between">
+        <div class="d-none d-md-block col-lg-5 p-0">
+          <div class="d-flex label align-items-center justify-content-around">
+            <a href="#!" class="text-uppercase order-table px-4 py-4">
+              Замовити Столик
+            </a>
+            <div class="d-flex flex-column contacts">
+              <a href="#!">+380 97 543 23 23</a>
+              <a href="#!">Львів, вул. Староєврейська, N</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-lg-3">
+          <a href="#!" class="label">
+            <img src="./public/images/logo.svg" alt="">
+          </a>
+        </div>
+        <div class="col-6 col-lg-3 justify-content-end">
+          <div class="label d-flex align-items-center justify-content-around">
+            <a href="#!">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                  <path d="M21.7494 20.5399L16.3803 15.1709C17.7149 13.566 18.5189 11.5052 18.5189 9.25977C18.5189 4.15391 14.3652 0 9.25953 0C4.15379 0 0 4.15391 0 9.25977C0 14.3653 4.15379 18.5188 9.25953 18.5188C11.5049 18.5188 13.5658 17.7149 15.1707 16.3804L20.5398 21.7494C20.7068 21.9165 20.9258 22 21.1446 22C21.3635 22 21.5825 21.9165 21.7495 21.7494C22.0836 21.4154 22.0836 20.8739 21.7494 20.5399ZM1.71069 9.25977C1.71069 5.09719 5.09707 1.7107 9.25953 1.7107C13.4219 1.7107 16.8081 5.09719 16.8081 9.25977C16.8081 13.422 13.4219 16.8082 9.25953 16.8082C5.09707 16.8082 1.71069 13.422 1.71069 9.25977Z" fill="white"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0">
+                    <rect width="22" height="22" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <a href="#!">
+              <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.0375 20.3097L17.3654 5.11044C17.3303 4.79225 17.0494 4.55064 16.7142 4.55064H13.5714V3.86668C13.5714 1.73467 11.7541 0 9.52062 0C7.28692 0 5.46964 1.73467 5.46964 3.86668V4.55064H2.32689C1.9917 4.55064 1.71072 4.79225 1.67564 5.11044L0.00355498 20.3097C-0.0157474 20.4858 0.0441738 20.6616 0.168212 20.7933C0.292419 20.9248 0.469329 21 0.654799 21H18.3861C18.5717 21 18.7486 20.9248 18.8727 20.7933C18.9971 20.6616 19.0568 20.4858 19.0375 20.3097ZM6.77918 3.86668C6.77918 2.42392 8.00899 1.25001 9.52062 1.25001C11.0321 1.25001 12.2619 2.42392 12.2619 3.86668V4.55064H6.77918V3.86668ZM1.38191 19.7499L2.91653 5.80065H5.46964V7.17804C5.46964 7.52315 5.76287 7.80304 6.12441 7.80304C6.48595 7.80304 6.77918 7.52315 6.77918 7.17804V5.80065H12.2619V7.17804C12.2619 7.52315 12.5551 7.80304 12.9167 7.80304C13.2782 7.80304 13.5714 7.52315 13.5714 7.17804V5.80065H16.1245L17.6592 19.7499H1.38191Z" fill="white"/>
+              </svg>
+            </a>
+            <span class="menu-lable d-none d-md-block text-uppercase">
+                Меню
+              </span>
+            <div class="button_container" id="toggle">
+              <span class="top"></span>
+              <span class="middle"></span>
+              <span class="bottom"></span>
+            </div>
+            <div class="overlay" id="overlay">
+              <nav class="overlay-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Work</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="catalog d-flex align-items-start py-5 ">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-4">
+          <div>
+            <p class="catalog-main">Головна  > <span class="d-inline-block ml-2">Каталог товарів</span> </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-3" >
+          <div class="type-block mt-5" style="border-bottom: 2px solid white">
+            <p>Тип</p>
+            <div>
+              <p>
+                <input type="radio" id="test1" name="radio-group" checked>
+                <label for="test1">Усі</label>
+              </p>
+              <p>
+                <input type="radio" id="test2" name="radio-group">
+                <label for="test2">Наливки</label>
+              </p>
+              <p>
+                <input type="radio" id="test3" name="radio-group">
+                <label for="test3">Подарункові набори</label>
+              </p>
+            </div>
+          </div>
+
+          <div class="range-block mt-3 pb-3" style="border-bottom: 2px solid white">
+            <p>Ціна</p>
+            <div id="slider-range">
+              Multi Range Slider
+            </div>
+            <div class="d-flex justify-content-between">
+              <strong>Min:</strong> <span id="slider-range-value1"></span>
+              <strong>Max:</strong> <span id="slider-range-value2"></span>
+            </div>
+          </div>
+
+          <div class="liter-block mt-3" style="border-bottom: 2px solid white">
+            <p>Літраж</p>
+            <div>
+              <p>
+                <input type="radio" id="test4" name="radio-group" checked>
+                <label for="test4">Усі</label>
+              </p>
+              <p>
+                <input type="radio" id="test5" name="radio-group">
+                <label for="test5">0.2 л</label>
+              </p>
+              <p>
+                <input type="radio" id="test6" name="radio-group">
+                <label for="test6">0.5 л</label>
+              </p>
+              <p>
+                <input type="radio" id="test7" name="radio-group">
+                <label for="test7">0.7 л</label>
+              </p>
+            </div>
+          </div>
+
+          <div class="alcohol-block mt-3">
+            <p>Вміст алкоголю</p>
+            <div>
+              <p>
+                <input type="radio" id="test8" name="radio-group" checked>
+                <label for="test8">Усі</label>
+              </p>
+              <p>
+                <input type="radio" id="test9" name="radio-group">
+                <label for="test9">Б/а</label>
+              </p>
+              <p>
+                <input type="radio" id="test10" name="radio-group">
+                <label for="test10">Легші (18%-22%)</label>
+              </p>
+              <p>
+                <input type="radio" id="test11" name="radio-group">
+                <label for="test11">Середні (28%-35%)</label>
+              </p>
+              <p>
+                <input type="radio" id="test12" name="radio-group">
+                <label for="test12">Міцні (40%-70%)</label>
+              </p>
+              <p>
+                <input type="radio" id="test13" name="radio-group">
+                <label for="test13">40%</label>
+              </p>
+            </div>
+          </div>
+
+          <a href="#" class="order-table mt-3 px-4 py-3 text-uppercase">
+            ЗАСТОСУВАТИ ФІЛЬТРИ
+          </a >
+        </div>
+
+        <div class="col-lg-8">
+          <div class="catalog-top d-flex ">
+            <p>Наливки</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</body>
+
+</html>

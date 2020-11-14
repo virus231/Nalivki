@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,11 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a60f4e0-194b-4fce-bf37-1f7d80f48f17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/catalog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_catalog.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_choice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_choice.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_insta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_insta.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_intro.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +92,8 @@
       <workItem from="1604955263013" duration="4618000" />
       <workItem from="1605006345693" duration="34000" />
       <workItem from="1605039641991" duration="6028000" />
+      <workItem from="1605175823208" duration="3930000" />
+      <workItem from="1605366322904" duration="5032000" />
     </task>
     <servers />
   </component>
@@ -131,9 +137,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604684939216" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604689656858">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1605366718504">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604689656858" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605366718504" />
   </component>
 </project>
