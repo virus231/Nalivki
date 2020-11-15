@@ -76,7 +76,8 @@
         <div class="cart-item">
           <div class="cart__top align-items-center">
             <h2 class="content__title">
-              <svg width="28" height="31" viewBox="0 0 28 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="28" height="31" viewBox="0 0 28 31" fill="#8E1717
+" xmlns="http://www.w3.org/2000/svg">
                 <path d="M27.9948 29.9811L25.5359 7.544C25.4844 7.07429 25.0712 6.71763 24.5783 6.71763H19.9569V5.70796C19.9569 2.56071 17.2845 0 14.0001 0C10.7154 0 8.04314 2.56071 8.04314 5.70796V6.71763H3.4217C2.9288 6.71763 2.51562 7.07429 2.46404 7.544L0.00522762 29.9811C-0.0231566 30.241 0.0649578 30.5005 0.247357 30.6949C0.430003 30.8891 0.690151 31 0.962886 31H27.0369C27.3098 31 27.57 30.8891 27.7524 30.6949C27.9353 30.5005 28.0231 30.241 27.9948 29.9811ZM9.96882 5.70796C9.96882 3.57818 11.7773 1.84526 14.0001 1.84526C16.2227 1.84526 18.0312 3.57818 18.0312 5.70796V6.71763H9.96882V5.70796ZM2.03211 29.1547L4.28877 8.56289H8.04314V10.5962C8.04314 11.1056 8.47433 11.5188 9.00598 11.5188C9.53763 11.5188 9.96882 11.1056 9.96882 10.5962V8.56289H18.0312V10.5962C18.0312 11.1056 18.4624 11.5188 18.994 11.5188C19.5257 11.5188 19.9569 11.1056 19.9569 10.5962V8.56289H23.7112L25.9679 29.1547H2.03211Z" fill="#8E1717"/>
               </svg>
               Кошик
@@ -91,18 +92,35 @@
               <span>Видатили все</span>
             </div>
           </div>
+
           <div class="content__items">
             <div class="cart__item">
               <div class="cart__item-img">
                 <img
-                  class="pizza-block__image"
-                  src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
+                  class="pizza-block__image img-fluid"
+                  src="./public/images/item.png"
                   alt="Pizza"
                 />
               </div>
               <div class="cart__item-info">
-                <h3>Сырный цыпленок</h3>
-                <p>тонкое тесто, 26 см.</p>
+                <h3 class="text-uppercase">Малинівка</h3>
+                <p>
+                  <span class="mr-3">
+                    0,7 л
+                  </span>
+                  <span class="mr-3">
+                    Україна
+                  </span>
+                  <span>
+                    28% алк.
+                  </span>
+                </p>
+              </div>
+              <div class="cart__item-by">
+                <p>
+                  <b>115 грн</b>
+                  за 1 шт
+                </p>
               </div>
               <div class="cart__item-count">
                 <div class="button button--outline button--circle cart__item-count-minus">
@@ -111,7 +129,7 @@
                     <line y1="-1" x2="14.2105" y2="-1" transform="matrix(-1 0 0 1 22.1055 17.3687)" stroke="white" stroke-width="2"/>
                   </svg>
                 </div>
-                <b>2</b>
+                <b>2 шт</b>
                 <div class="button button--outline button--circle cart__item-count-plus">
                   <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="30" height="30" transform="matrix(-1 0 0 1 29.9998 0)" fill="#8E1717"/>
@@ -120,7 +138,7 @@
                 </div>
               </div>
               <div class="cart__item-price">
-                <b>770 ₽</b>
+                <b>770 грн</b>
               </div>
               <div class="cart__item-remove">
                 <div class="button button--outline button--circle">
@@ -132,20 +150,25 @@
               </div>
             </div>
           </div>
+
           <div class="cart__bottom">
             <div class="cart__bottom-details">
-              <span> Всего пицц: <b>3 шт.</b> </span>
-              <span> Сумма заказа: <b>900 ₽</b> </span>
+              <span> Всього товарів: <b>3 шт.</b> </span>
+              <span class="suma"> Сума замовлення: <b>900 грн</b> </span>
             </div>
             <div class="cart__bottom-buttons">
               <a href="/" class="button button--outline button--add go-back-btn">
-                <span>Вернуться назад</span>
+                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 13L1 6.93015L6.86175 1" stroke="#D3D3D3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Повернутись назад</span>
               </a>
-              <div class="button pay-btn">
-                <span>Оплатить сейчас</span>
+              <div class="button pay-btn order-table px-4 py-3">
+                <span>Оформити замовлення</span>
               </div>
             </div>
           </div>
+        </div>
   </section>
 
   <footer class="footer py-5">
