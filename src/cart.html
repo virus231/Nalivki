@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Наливки</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header header-catalog py-0">
+  <div class="container">
+    <div class="row d-flex py-2 py-lg-0 align-items-center justify-content-between">
+      <div class="d-none d-lg-block col-lg-5 p-0">
+        <div class="d-flex label align-items-center justify-content-around">
+          <a href="#!" class="text-uppercase order-table px-4 py-4">
+            Замовити Столик
+          </a>
+          <div class="d-flex flex-column contacts">
+            <a href="#!">+380 97 543 23 23</a>
+            <a href="#!">Львів, вул. Староєврейська, N</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-lg-3">
+        <a href="#!" class="label">
+          <img src="./public/images/logo.svg" alt="">
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 justify-content-end">
+        <div class="label d-flex align-items-center justify-content-around">
+          <a class="d-none d-lg-block" href="#!">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path d="M21.7494 20.5399L16.3803 15.1709C17.7149 13.566 18.5189 11.5052 18.5189 9.25977C18.5189 4.15391 14.3652 0 9.25953 0C4.15379 0 0 4.15391 0 9.25977C0 14.3653 4.15379 18.5188 9.25953 18.5188C11.5049 18.5188 13.5658 17.7149 15.1707 16.3804L20.5398 21.7494C20.7068 21.9165 20.9258 22 21.1446 22C21.3635 22 21.5825 21.9165 21.7495 21.7494C22.0836 21.4154 22.0836 20.8739 21.7494 20.5399ZM1.71069 9.25977C1.71069 5.09719 5.09707 1.7107 9.25953 1.7107C13.4219 1.7107 16.8081 5.09719 16.8081 9.25977C16.8081 13.422 13.4219 16.8082 9.25953 16.8082C5.09707 16.8082 1.71069 13.422 1.71069 9.25977Z" fill="white"/>
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="22" height="22" fill="white"/>
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a href="#!">
+            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19.0375 20.3097L17.3654 5.11044C17.3303 4.79225 17.0494 4.55064 16.7142 4.55064H13.5714V3.86668C13.5714 1.73467 11.7541 0 9.52062 0C7.28692 0 5.46964 1.73467 5.46964 3.86668V4.55064H2.32689C1.9917 4.55064 1.71072 4.79225 1.67564 5.11044L0.00355498 20.3097C-0.0157474 20.4858 0.0441738 20.6616 0.168212 20.7933C0.292419 20.9248 0.469329 21 0.654799 21H18.3861C18.5717 21 18.7486 20.9248 18.8727 20.7933C18.9971 20.6616 19.0568 20.4858 19.0375 20.3097ZM6.77918 3.86668C6.77918 2.42392 8.00899 1.25001 9.52062 1.25001C11.0321 1.25001 12.2619 2.42392 12.2619 3.86668V4.55064H6.77918V3.86668ZM1.38191 19.7499L2.91653 5.80065H5.46964V7.17804C5.46964 7.52315 5.76287 7.80304 6.12441 7.80304C6.48595 7.80304 6.77918 7.52315 6.77918 7.17804V5.80065H12.2619V7.17804C12.2619 7.52315 12.5551 7.80304 12.9167 7.80304C13.2782 7.80304 13.5714 7.52315 13.5714 7.17804V5.80065H16.1245L17.6592 19.7499H1.38191Z" fill="white"/>
+            </svg>
+          </a>
+          <span class="menu-lable d-none d-lg-block text-uppercase">
+                Меню
+              </span>
+          <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+          </div>
+          <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <section class="cart d-flex align-items-center">
+      <div class="container container--cart">
+        <div class="cart-item">
+          <div class="cart__top align-items-center">
+            <h2 class="content__title">
+              <svg width="28" height="31" viewBox="0 0 28 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M27.9948 29.9811L25.5359 7.544C25.4844 7.07429 25.0712 6.71763 24.5783 6.71763H19.9569V5.70796C19.9569 2.56071 17.2845 0 14.0001 0C10.7154 0 8.04314 2.56071 8.04314 5.70796V6.71763H3.4217C2.9288 6.71763 2.51562 7.07429 2.46404 7.544L0.00522762 29.9811C-0.0231566 30.241 0.0649578 30.5005 0.247357 30.6949C0.430003 30.8891 0.690151 31 0.962886 31H27.0369C27.3098 31 27.57 30.8891 27.7524 30.6949C27.9353 30.5005 28.0231 30.241 27.9948 29.9811ZM9.96882 5.70796C9.96882 3.57818 11.7773 1.84526 14.0001 1.84526C16.2227 1.84526 18.0312 3.57818 18.0312 5.70796V6.71763H9.96882V5.70796ZM2.03211 29.1547L4.28877 8.56289H8.04314V10.5962C8.04314 11.1056 8.47433 11.5188 9.00598 11.5188C9.53763 11.5188 9.96882 11.1056 9.96882 10.5962V8.56289H18.0312V10.5962C18.0312 11.1056 18.4624 11.5188 18.994 11.5188C19.5257 11.5188 19.9569 11.1056 19.9569 10.5962V8.56289H23.7112L25.9679 29.1547H2.03211Z" fill="#8E1717"/>
+              </svg>
+              Кошик
+            </h2>
+            <div class="cart__clear">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.5 5H4.16667H17.5" stroke="#B6B6B6" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6.66663 4.99996V3.33329C6.66663 2.89127 6.84222 2.46734 7.15478 2.15478C7.46734 1.84222 7.89127 1.66663 8.33329 1.66663H11.6666C12.1087 1.66663 12.5326 1.84222 12.8451 2.15478C13.1577 2.46734 13.3333 2.89127 13.3333 3.33329V4.99996M15.8333 4.99996V16.6666C15.8333 17.1087 15.6577 17.5326 15.3451 17.8451C15.0326 18.1577 14.6087 18.3333 14.1666 18.3333H5.83329C5.39127 18.3333 4.96734 18.1577 4.65478 17.8451C4.34222 17.5326 4.16663 17.1087 4.16663 16.6666V4.99996H15.8333Z" stroke="#B6B6B6" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8.33337 9.16663V14.1666" stroke="#B6B6B6" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11.6666 9.16663V14.1666" stroke="#B6B6B6" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>Видатили все</span>
+            </div>
+          </div>
+          <div class="content__items">
+            <div class="cart__item">
+              <div class="cart__item-img">
+                <img
+                  class="pizza-block__image"
+                  src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
+                  alt="Pizza"
+                />
+              </div>
+              <div class="cart__item-info">
+                <h3>Сырный цыпленок</h3>
+                <p>тонкое тесто, 26 см.</p>
+              </div>
+              <div class="cart__item-count">
+                <div class="button button--outline button--circle cart__item-count-minus">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="30" height="30" transform="matrix(-1 0 0 1 30 0)" fill="#8E1717" fill-opacity="0.5"/>
+                    <line y1="-1" x2="14.2105" y2="-1" transform="matrix(-1 0 0 1 22.1055 17.3687)" stroke="white" stroke-width="2"/>
+                  </svg>
+                </div>
+                <b>2</b>
+                <div class="button button--outline button--circle cart__item-count-plus">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="30" height="30" transform="matrix(-1 0 0 1 29.9998 0)" fill="#8E1717"/>
+                    <path d="M16.1529 17.0882H22.1047V14.525H16.1529V7.89478H13.846V14.525H7.89421V17.0882H13.846V23.6842H16.1529V17.0882Z" fill="white"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="cart__item-price">
+                <b>770 ₽</b>
+              </div>
+              <div class="cart__item-remove">
+                <div class="button button--outline button--circle">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="16" cy="16" r="15" fill="white" stroke="#D7D7D7" stroke-width="2"/>
+                    <path d="M19.7479 17.9557L17.4993 15.7071L19.7479 13.4585C20.1618 13.0446 20.1618 12.3734 19.7479 11.9595C19.334 11.5455 18.6628 11.5455 18.2488 11.9595L16.0002 14.2081L13.7516 11.9595C13.3377 11.5455 12.6665 11.5455 12.2526 11.9595C11.8386 12.3734 11.8386 13.0446 12.2526 13.4585L14.5012 15.7071L12.2526 17.9557C11.8386 18.3697 11.8386 19.0409 12.2526 19.4548C12.6665 19.8687 13.3377 19.8687 13.7516 19.4548L16.0002 17.2062L18.2488 19.4548C18.6628 19.8687 19.334 19.8687 19.7479 19.4548C20.1618 19.0409 20.1618 18.3697 19.7479 17.9557Z" fill="#D0D0D0"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cart__bottom">
+            <div class="cart__bottom-details">
+              <span> Всего пицц: <b>3 шт.</b> </span>
+              <span> Сумма заказа: <b>900 ₽</b> </span>
+            </div>
+            <div class="cart__bottom-buttons">
+              <a href="/" class="button button--outline button--add go-back-btn">
+                <span>Вернуться назад</span>
+              </a>
+              <div class="button pay-btn">
+                <span>Оплатить сейчас</span>
+              </div>
+            </div>
+          </div>
+  </section>
+
+  <footer class="footer py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center col-lg-12">
+        <nav class="d-flex flex-column flex-md-row justify-content-between footer-links">
+          <a class="mb-4" href="#">
+            Карта Напоїв
+          </a>
+          <a class="mb-4" href="#">
+            Меню страв
+          </a>
+          <a class="mb-4" href="#">
+            Каталог наливок
+          </a>
+          <a class="mb-4" href="#">
+            Подарункові набори
+          </a>
+          <a class="mb-4" href="#">
+            Оплата і доставка
+          </a>
+          <a href="#">
+            Контакти
+          </a>
+        </nav>
+      </div>
+    </div>
+    <div class="row mt-5 d-flex flex-column flex-md-row text-center justify-content-between">
+      <div class="col-12 mb-5 mb-md-0 col-lg-3">
+        <a href="#" class="order-table text-uppercase px-5 py-3">
+          Замовити столик
+        </a>
+      </div>
+      <div class="col-12 mb-4 mt-md-5 col-lg-6 text-center">
+        <div class="danger d-flex align-items-center justify-content-center text-center">
+              <span class="d-flex justify-content-start">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M8.85743 18.7681V11.1663H7.1001V9.21826H11.2824V18.7681H8.85743Z" fill="white" fill-opacity="0.58"/>
+<path d="M20.3959 11.6841C20.3959 12.5151 19.9463 13.2507 19.1971 13.6595C20.246 14.0953 20.8999 15.0081 20.8999 16.0707C20.8999 17.7872 19.3741 18.8771 16.9901 18.8771C14.6061 18.8771 13.0803 17.8008 13.0803 16.1117C13.0803 15.0218 13.7887 14.0953 14.8921 13.6595C14.0884 13.2099 13.5707 12.4471 13.5707 11.6161C13.5707 10.0902 14.9059 9.12305 16.9765 9.12305C19.0744 9.12305 20.3959 10.1175 20.3959 11.6841ZM15.3689 15.8664C15.3689 16.6703 15.9412 17.1198 16.9901 17.1198C18.0391 17.1198 18.6249 16.684 18.6249 15.8664C18.6249 15.0764 18.0391 14.6267 16.9901 14.6267C15.9411 14.6267 15.3689 15.0763 15.3689 15.8664ZM15.6142 11.8203C15.6142 12.5016 16.1046 12.8829 16.9901 12.8829C17.8756 12.8829 18.366 12.5016 18.366 11.8203C18.366 11.1121 17.8756 10.717 16.9901 10.717C16.1046 10.717 15.6142 11.1121 15.6142 11.8203Z" fill="white" fill-opacity="0.58"/>
+<path d="M24.9359 10.2964C25.339 11.4862 25.5435 12.7308 25.5435 14C25.5435 20.3646 20.3655 25.5426 14.0009 25.5426C7.63632 25.5426 2.45825 20.3646 2.45825 14C2.45825 7.63535 7.63624 2.45753 14.0008 2.45753C15.2703 2.45753 16.5148 2.66187 17.7045 3.06519V0.496547C16.5028 0.167133 15.2617 0 14.0009 0C6.28138 0 0.000976562 6.2804 0.000976562 14C0.000976562 21.7197 6.28138 28.0001 14.0009 28.0001C21.7205 28.0001 28.0008 21.7197 28.0008 14C28.0008 12.7393 27.8338 11.4982 27.5043 10.2964H24.9359Z" fill="white" fill-opacity="0.58"/>
+<path d="M24.2364 3.75573V1.07129H22.306V3.75573H19.6377V5.68589H22.306V8.37025H24.2364V5.68589H26.9206V3.75573H24.2364Z" fill="white" fill-opacity="0.58"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="28" height="28" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+                Надмірне споживання алкоголю шкідливе для вашого здоров'я <br>
+                Сайт призначений лише для осіб, що досягли повноліття
+              </span>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 ">
+        <p class="search text-center text-lg-right">
+          Пошук
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mt-5" style="border: 1px solid rgba(255, 255, 255, 0.3);">
+  </div>
+  <div class="container">
+    <div class="row d-flex text-center justify-content-between mt-3">
+      <div class="col-12 mb-3 mb-md-0 col-lg-3">
+            <span class="rights">
+              2020 GirskiNalyvky © All Rights Reserved.
+            </span>
+      </div>
+      <div class="col-12 mb-3 mb-md-0 col-lg-3">
+        <a href="#" class="politics">
+          Політика конфіденційності
+        </a>
+      </div>
+      <div class="col-12 col-lg-2 text-center text-lg-right">
+        <a href="#" class="siteen">
+          Made with Siteen
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>

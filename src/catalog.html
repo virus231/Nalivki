@@ -11,8 +11,8 @@
 <body>
   <header class="header header-catalog py-0">
     <div class="container">
-      <div class="row d-flex pt-2 pt-md-0 align-items-center justify-content-between">
-        <div class="d-none d-md-block col-lg-5 p-0">
+      <div class="row d-flex py-2 py-lg-0 align-items-center justify-content-between">
+        <div class="d-none d-lg-block col-lg-5 p-0">
           <div class="d-flex label align-items-center justify-content-around">
             <a href="#!" class="text-uppercase order-table px-4 py-4">
               Замовити Столик
@@ -28,9 +28,9 @@
             <img src="./public/images/logo.svg" alt="">
           </a>
         </div>
-        <div class="col-6 col-lg-3 justify-content-end">
+        <div class="col-6 col-md-4 col-lg-3 justify-content-end">
           <div class="label d-flex align-items-center justify-content-around">
-            <a href="#!">
+            <a class="d-none d-lg-block" href="#!">
               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path d="M21.7494 20.5399L16.3803 15.1709C17.7149 13.566 18.5189 11.5052 18.5189 9.25977C18.5189 4.15391 14.3652 0 9.25953 0C4.15379 0 0 4.15391 0 9.25977C0 14.3653 4.15379 18.5188 9.25953 18.5188C11.5049 18.5188 13.5658 17.7149 15.1707 16.3804L20.5398 21.7494C20.7068 21.9165 20.9258 22 21.1446 22C21.3635 22 21.5825 21.9165 21.7495 21.7494C22.0836 21.4154 22.0836 20.8739 21.7494 20.5399ZM1.71069 9.25977C1.71069 5.09719 5.09707 1.7107 9.25953 1.7107C13.4219 1.7107 16.8081 5.09719 16.8081 9.25977C16.8081 13.422 13.4219 16.8082 9.25953 16.8082C5.09707 16.8082 1.71069 13.422 1.71069 9.25977Z" fill="white"/>
@@ -47,7 +47,7 @@
                 <path d="M19.0375 20.3097L17.3654 5.11044C17.3303 4.79225 17.0494 4.55064 16.7142 4.55064H13.5714V3.86668C13.5714 1.73467 11.7541 0 9.52062 0C7.28692 0 5.46964 1.73467 5.46964 3.86668V4.55064H2.32689C1.9917 4.55064 1.71072 4.79225 1.67564 5.11044L0.00355498 20.3097C-0.0157474 20.4858 0.0441738 20.6616 0.168212 20.7933C0.292419 20.9248 0.469329 21 0.654799 21H18.3861C18.5717 21 18.7486 20.9248 18.8727 20.7933C18.9971 20.6616 19.0568 20.4858 19.0375 20.3097ZM6.77918 3.86668C6.77918 2.42392 8.00899 1.25001 9.52062 1.25001C11.0321 1.25001 12.2619 2.42392 12.2619 3.86668V4.55064H6.77918V3.86668ZM1.38191 19.7499L2.91653 5.80065H5.46964V7.17804C5.46964 7.52315 5.76287 7.80304 6.12441 7.80304C6.48595 7.80304 6.77918 7.52315 6.77918 7.17804V5.80065H12.2619V7.17804C12.2619 7.52315 12.5551 7.80304 12.9167 7.80304C13.2782 7.80304 13.5714 7.52315 13.5714 7.17804V5.80065H16.1245L17.6592 19.7499H1.38191Z" fill="white"/>
               </svg>
             </a>
-            <span class="menu-lable d-none d-md-block text-uppercase">
+            <span class="menu-lable d-none d-lg-block text-uppercase">
                 Меню
               </span>
             <div class="button_container" id="toggle">
@@ -82,7 +82,7 @@
       </div>
 
       <div class="row mt-5">
-        <div class="col-lg-2" >
+        <div class="col-lg-2 d-none d-lg-block" >
           <div class="type-block mt-5" style="border-bottom: 2px solid white">
             <p>Тип</p>
             <div>
@@ -169,9 +169,117 @@
           </a >
         </div>
 
-        <div class="col-lg-10">
+        <div class="col-md-12 col-lg-2 d-block d-lg-none">
+          <div class="sort">
+            <div class="sort__label d-flex justify-content-center">
+              <b class="text-uppercase">Фільтри</b>
+              <svg
+                class="ml-3"
+                width="10"
+                height="6"
+                viewBox="0 0 10 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 5C10 5.16927 9.93815 5.31576 9.81445 5.43945C9.69075 5.56315 9.54427 5.625 9.375 5.625H0.625C0.455729 5.625 0.309245 5.56315 0.185547 5.43945C0.061849 5.31576 0 5.16927 0 5C0 4.83073 0.061849 4.68424 0.185547 4.56055L4.56055 0.185547C4.68424 0.061849 4.83073 0 5 0C5.16927 0 5.31576 0.061849 5.43945 0.185547L9.81445 4.56055C9.93815 4.68424 10 4.83073 10 5Z"
+                  fill="#2C2C2C"
+                />
+              </svg>
+            </div>
+            <div class="sort__popup filter">
+              <div class="type-block mt-5" style="border-bottom: 2px solid white">
+                <p>Тип</p>
+                <div>
+                  <p>
+                    <input type="radio" id="test1" name="radio-group" checked>
+                    <label for="test1">Усі</label>
+                  </p>
+                  <p>
+                    <input type="radio" id="test2" name="radio-group">
+                    <label for="test2">Наливки</label>
+                  </p>
+                  <p>
+                    <input type="radio" id="test3" name="radio-group">
+                    <label for="test3">Подарункові набори</label>
+                  </p>
+                </div>
+              </div>
+
+              <div class="range-block mt-3 pb-3" style="border-bottom: 2px solid white">
+                <p>Ціна</p>
+                <div id="slider-range">
+                  Multi Range Slider
+                </div>
+                <div class="d-flex justify-content-center">
+                  <strong>Min:</strong> <span id="slider-range-value1"></span>
+                  <strong>Max:</strong> <span id="slider-range-value2"></span>
+                </div>
+              </div>
+
+              <div class="liter-block mt-3" style="border-bottom: 2px solid white">
+                <p>Літраж</p>
+                <div>
+                  <p>
+                    <input type="radio" id="test4" name="radio-group" checked>
+                    <label for="test4">Усі</label>
+                  </p>
+                  <p>
+                    <input type="radio" id="test5" name="radio-group">
+                    <label for="test5">0.2 л</label>
+                  </p>
+                  <p>
+                    <input type="radio" id="test6" name="radio-group">
+                    <label for="test6">0.5 л</label>
+                  </p>
+                  <p>
+                    <input type="radio" id="test7" name="radio-group">
+                    <label for="test7">0.7 л</label>
+                  </p>
+                </div>
+              </div>
+
+              <div class="alcohol-block mt-3">
+                <p>Вміст алкоголю</p>
+                <div>
+                  <p>
+                    <input type="radio" id="test8" name="radio-group" checked>
+                    <label for="test8">Усі</label>
+                  </p>
+                  <p>
+                    <input type="radio" id="test9" name="radio-group">
+                    <label for="test9">Б/а</label>
+                  </p>
+                  <p>
+                    <input type="radio" id="test10" name="radio-group">
+                    <label for="test10">Легші (18%-22%)</label>
+                  </p>
+                  <p>
+                    <input type="radio" id="test11" name="radio-group">
+                    <label for="test11">Середні (28%-35%)</label>
+                  </p>
+                  <p>
+                    <input type="radio" id="test12" name="radio-group">
+                    <label for="test12">Міцні (40%-70%)</label>
+                  </p>
+                  <p>
+                    <input type="radio" id="test13" name="radio-group">
+                    <label for="test13">40%</label>
+                  </p>
+                </div>
+              </div>
+
+              <a href="#" class="order-table mt-3 d-inline-block px-3 py-3 text-uppercase">
+                ЗАСТОСУВАТИ ФІЛЬТРИ
+              </a >
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 mt-lg-0 col-md-12 col-lg-10">
           <div class="catalog-top d-flex justify-content-between ">
             <p>Наливки</p>
+
             <div class="sort">
               <div class="sort__label">
                 <b>Сортировка по:</b>
@@ -198,6 +306,7 @@
                 </ul>
               </div>
             </div>
+
           </div>
 
           <div class="d-flex flex-column text-center flex-lg-row flex-wrap justify-content-start main-block">
@@ -536,7 +645,7 @@
             Замовити столик
           </a>
         </div>
-        <div class="col-12 mb-4 mb-md-0 col-lg-6 text-center">
+        <div class="col-12 mb-4 mt-md-5 col-lg-6 text-center">
           <div class="danger d-flex align-items-center justify-content-center text-center">
               <span class="d-flex justify-content-start">
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -558,7 +667,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-3 ">
-          <p class="search text-center text-md-right">
+          <p class="search text-center text-lg-right">
             Пошук
           </p>
         </div>
@@ -578,7 +687,7 @@
             Політика конфіденційності
           </a>
         </div>
-        <div class="col-12 col-lg-2 text-center text-md-right">
+        <div class="col-12 col-lg-2 text-center text-lg-right">
           <a href="#" class="siteen">
             Made with Siteen
           </a>
@@ -586,8 +695,6 @@
       </div>
     </div>
   </footer>
-
-
 
 </body>
 

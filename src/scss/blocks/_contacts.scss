@@ -1,9 +1,11 @@
 .contacts-info {
   background: url('../public/images/map.png') no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 70vh;
   background-position-x: right;
 }
+
+
 
 .contacts-block {
   h6 {
@@ -58,5 +60,16 @@
         transform: rotate(360deg);
       }
     }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contacts-info {
+    background: url('../public/images/map-md.png') no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    height: 100vh;
+
   }
 }

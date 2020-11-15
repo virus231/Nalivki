@@ -47,6 +47,7 @@
     font-size: 16px;
     color: #1C1717;
   }
+
   [type="radio"]:checked + label:before,
   [type="radio"]:not(:checked) + label:before {
     content: '';
@@ -59,6 +60,7 @@
     border-radius: 100%;
     background: #fff;
   }
+
   [type="radio"]:checked + label:after,
   [type="radio"]:not(:checked) + label:after {
     content: '';
@@ -207,6 +209,12 @@
   }
 }
 
+.filter {
+  position: static;
+  width: 100%;
+  text-align: center;
+}
+
 .controls {
   p {
     button {
@@ -230,4 +238,11 @@
   }
 }
 
+
+@media screen and (max-width: 992px) {
+  [type="radio"]:checked + label:before,
+  [type="radio"]:not(:checked) + label:before {
+    border: 1px solid gray;
+  }
+}
 
