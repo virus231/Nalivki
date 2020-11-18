@@ -7,11 +7,16 @@
 
   &-main {
     font-family: Raleway;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    letter-spacing: 0.02em;
-    color: #CACACA;
+
+    a {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      color: #CACACA;
+    }
 
     span {
       color: #8E1717;
