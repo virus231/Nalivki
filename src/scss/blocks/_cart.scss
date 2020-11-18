@@ -222,9 +222,12 @@
         border-color: darken($color: gray, $amount: 10);
 
         span {
-          color: darken($color: gray, $amount: 20);
-          font-weight: 500;
           font-weight: 600;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 18px;
+          color: #CACACA;
         }
 
         &:hover {
@@ -246,10 +249,13 @@
       }
 
       .pay-btn {
-        font-size: 16px;
-        font-weight: 600;
-        width: 210px;
-        padding: 16px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFFFF;
+        //width: 210px;
+        //padding: 16px;
       }
     }
   }
@@ -306,4 +312,62 @@
     font-size: 22px;
     color: #8E1717;
   }
+}
+
+
+@media screen and (max-width: 768px) {
+  .cart__item {
+    &-img {
+      width: 15%;
+    }
+
+    &-info {
+      width: 35%;
+    }
+
+    &-by {
+      width: 25%;
+    }
+
+    &-count {
+      width: 23%;
+    }
+
+    &-price {
+      width: 20%;
+    }
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .cart__item {
+    flex-wrap: wrap;
+
+    &-img {
+      width: 25%;
+    }
+
+    &-info {
+      width: 60%;
+      border-right: none;
+    }
+
+    &-by {
+      width: 30%;
+    }
+
+    &-count {
+      width: 35%;
+    }
+
+    &-price {
+      width: 25%;
+    }
+
+    &-remove {
+      width: 10%;
+    }
+  }
+
 }
