@@ -23,12 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a60f4e0-194b-4fce-bf37-1f7d80f48f17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cart-product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_details.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/delivery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_delivery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_success.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/success-order.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cart-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/product-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_details.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +97,8 @@
       <workItem from="1605175823208" duration="3930000" />
       <workItem from="1605366322904" duration="13324000" />
       <workItem from="1605451239545" duration="12373000" />
-      <workItem from="1605702771896" duration="7663000" />
+      <workItem from="1605702771896" duration="8372000" />
+      <workItem from="1605792789709" duration="6769000" />
     </task>
     <servers />
   </component>

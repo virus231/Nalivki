@@ -60,8 +60,33 @@
     font-size: 14px;
     color: #CACACA;
   }
+}
+
+.red-text {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #8E1717;
+}
+
+.h3-responsive {
+  position: relative;
+  display: inline-block;
 
 }
 
-
+.gray-text {
+  display: inline-block;
+  position: absolute;
+  top: -10%;
+  right: -50%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  text-decoration-line: line-through;
+  color: #C4C4C4;
+  text-decoration: uppercase;
+}
 

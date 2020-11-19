@@ -1,0 +1,30 @@
+.delivery {
+  &-title {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #8E1717;
+  }
+
+  &-block {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(142, 23, 23, 0.17);
+
+    p {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: #3C3C3C;
+    }
+  }
+}
+
+.danger-text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #8E1717;
+}

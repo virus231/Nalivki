@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Наливки</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header header-catalog py-0">
+  <div class="container">
+    <div class="row d-flex py-2 py-lg-0 align-items-center justify-content-between">
+      <div class="d-none d-lg-block col-lg-5 p-0">
+        <div class="d-flex label align-items-center justify-content-around">
+          <a href="#!" class="text-uppercase order-table px-4 py-4">
+            Замовити Столик
+          </a>
+          <div class="d-flex flex-column contacts">
+            <a href="#!">+380 97 543 23 23</a>
+            <a href="#!">Львів, вул. Староєврейська, N</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-lg-3">
+        <a href="#!" class="label">
+          <img src="./public/images/logo.svg" alt="">
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 justify-content-end">
+        <div class="label d-flex align-items-center justify-content-around">
+          <a class="d-none d-lg-block" href="#!">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path d="M21.7494 20.5399L16.3803 15.1709C17.7149 13.566 18.5189 11.5052 18.5189 9.25977C18.5189 4.15391 14.3652 0 9.25953 0C4.15379 0 0 4.15391 0 9.25977C0 14.3653 4.15379 18.5188 9.25953 18.5188C11.5049 18.5188 13.5658 17.7149 15.1707 16.3804L20.5398 21.7494C20.7068 21.9165 20.9258 22 21.1446 22C21.3635 22 21.5825 21.9165 21.7495 21.7494C22.0836 21.4154 22.0836 20.8739 21.7494 20.5399ZM1.71069 9.25977C1.71069 5.09719 5.09707 1.7107 9.25953 1.7107C13.4219 1.7107 16.8081 5.09719 16.8081 9.25977C16.8081 13.422 13.4219 16.8082 9.25953 16.8082C5.09707 16.8082 1.71069 13.422 1.71069 9.25977Z" fill="white"/>
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="22" height="22" fill="white"/>
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a href="#!">
+            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19.0375 20.3097L17.3654 5.11044C17.3303 4.79225 17.0494 4.55064 16.7142 4.55064H13.5714V3.86668C13.5714 1.73467 11.7541 0 9.52062 0C7.28692 0 5.46964 1.73467 5.46964 3.86668V4.55064H2.32689C1.9917 4.55064 1.71072 4.79225 1.67564 5.11044L0.00355498 20.3097C-0.0157474 20.4858 0.0441738 20.6616 0.168212 20.7933C0.292419 20.9248 0.469329 21 0.654799 21H18.3861C18.5717 21 18.7486 20.9248 18.8727 20.7933C18.9971 20.6616 19.0568 20.4858 19.0375 20.3097ZM6.77918 3.86668C6.77918 2.42392 8.00899 1.25001 9.52062 1.25001C11.0321 1.25001 12.2619 2.42392 12.2619 3.86668V4.55064H6.77918V3.86668ZM1.38191 19.7499L2.91653 5.80065H5.46964V7.17804C5.46964 7.52315 5.76287 7.80304 6.12441 7.80304C6.48595 7.80304 6.77918 7.52315 6.77918 7.17804V5.80065H12.2619V7.17804C12.2619 7.52315 12.5551 7.80304 12.9167 7.80304C13.2782 7.80304 13.5714 7.52315 13.5714 7.17804V5.80065H16.1245L17.6592 19.7499H1.38191Z" fill="white"/>
+            </svg>
+          </a>
+          <span class="menu-lable d-none d-lg-block text-uppercase">
+                Меню
+              </span>
+          <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+          </div>
+          <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="success">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-lg-4 mt-5">
+        <div>
+          <p class="catalog-main">
+            <a href="#">Головна  > </a>
+            <a href="#">Кошик > </a>
+            <span class="d-inline-block ml-2">Оформлення замовлення</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-lg-12">
+        <img src="./public/images/success.png" alt="" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="col-12 col-lg-4">
+        <p class="d-flex align-items-center likeit">
+          <svg width="23" class="mr-3" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.6401 1.56348C20.1524 1.56348 23 4.41117 23 7.92279C23 13.7271 11.4997 21.4363 11.4997 21.4363C11.4997 21.4363 0 14.005 0 7.92274C0 3.55064 2.84769 1.56348 6.3593 1.56348C8.4746 1.56348 10.3431 2.60085 11.4997 4.18914C12.6564 2.60085 14.5253 1.56348 16.6401 1.56348Z" fill="#8E1717"/>
+          </svg>
+          Вам також сподобається
+        </p>
+      </div>
+    </div>
+
+    <div class="row my-5">
+      <div class="col-md-12 col-lg-12">
+        <div class="d-flex flex-column text-center flex-md-row flex-lg-row flex-wrap justify-content-start main-block">
+          <div class="main-block__item">
+            <div class="main-block__info">
+              <svg width="330" height="587" viewBox="0 0 330 587" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M30 26H300V452.489C292.776 452.745 287 458.542 287 465.655C287 472.768 292.776 478.564 300 478.821V553H30V478.821C30.1659 478.827 30.3326 478.83 30.5 478.83C37.9558 478.83 44 472.931 44 465.655C44 458.378 37.9558 452.48 30.5 452.48C30.3326 452.48 30.1659 452.483 30 452.489V26Z" fill="white"/>
+                </g>
+                <defs>
+                  <filter id="filter0_d" x="0" y="0" width="330" height="587" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="15"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.558333 0 0 0 0 0.0884028 0 0 0 0 0.0884028 0 0 0 0.17 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                  </filter>
+                </defs>
+              </svg>
+              <div class="main-block__content info">
+                <img src="./public/images/item.png" class="img-fluid ml-2" alt="">
+                <p class="text-center info-title">ГРУШІВКА</p>
+                <p class="d-flex justify-content-between info-item">
+                  <span>0.7 л</span>
+                  <span>Україна</span>
+                  <span>28% алк.</span>
+                </p>
+                <svg class="mb-3" width="202" height="1" viewBox="0 0 202 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line y1="0.5" x2="202" y2="0.5" stroke="#C1C1C1"/>
+                </svg>
+                <p class="info-bottom d-flex align-items-center justify-content-around">
+                  <span class="info-bottom__price">129 грн</span>
+                  <a href="#" class="info-bottom__buy px-4 py-2 text-uppercase">
+                    Купити
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="main-block__item">
+
+            <div class="main-block__info">
+              <svg width="330" height="587" viewBox="0 0 330 587" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M30 26H300V452.489C292.776 452.745 287 458.542 287 465.655C287 472.768 292.776 478.564 300 478.821V553H30V478.821C30.1659 478.827 30.3326 478.83 30.5 478.83C37.9558 478.83 44 472.931 44 465.655C44 458.378 37.9558 452.48 30.5 452.48C30.3326 452.48 30.1659 452.483 30 452.489V26Z" fill="white"/>
+                </g>
+                <defs>
+                  <filter id="filter0_d" x="0" y="0" width="330" height="587" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="15"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.558333 0 0 0 0 0.0884028 0 0 0 0 0.0884028 0 0 0 0.17 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                  </filter>
+                </defs>
+              </svg>
+              <div class="main-block__content info">
+                <img src="./public/images/item.png" class="img-fluid ml-2" alt="">
+                <p class="text-center info-title">ГРУШІВКА</p>
+                <p class="d-flex justify-content-between info-item">
+                  <span>0.7 л</span>
+                  <span>Україна</span>
+                  <span>28% алк.</span>
+                </p>
+                <svg class="mb-3" width="202" height="1" viewBox="0 0 202 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line y1="0.5" x2="202" y2="0.5" stroke="#C1C1C1"/>
+                </svg>
+                <p class="info-bottom d-flex align-items-center justify-content-around">
+                  <span class="info-bottom__price">129 грн</span>
+                  <a href="#" class="info-bottom__buy px-4 py-2 text-uppercase">
+                    Купити
+                  </a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="main-block__item">
+
+            <div class="main-block__info">
+              <svg width="330" height="587" viewBox="0 0 330 587" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M30 26H300V452.489C292.776 452.745 287 458.542 287 465.655C287 472.768 292.776 478.564 300 478.821V553H30V478.821C30.1659 478.827 30.3326 478.83 30.5 478.83C37.9558 478.83 44 472.931 44 465.655C44 458.378 37.9558 452.48 30.5 452.48C30.3326 452.48 30.1659 452.483 30 452.489V26Z" fill="white"/>
+                </g>
+                <defs>
+                  <filter id="filter0_d" x="0" y="0" width="330" height="587" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="15"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.558333 0 0 0 0 0.0884028 0 0 0 0 0.0884028 0 0 0 0.17 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                  </filter>
+                </defs>
+              </svg>
+              <div class="main-block__content info">
+                <img src="./public/images/item.png" class="img-fluid ml-2" alt="">
+                <p class="text-center info-title">ГРУШІВКА</p>
+                <p class="d-flex justify-content-between info-item">
+                  <span>0.7 л</span>
+                  <span>Україна</span>
+                  <span>28% алк.</span>
+                </p>
+                <svg class="mb-3" width="202" height="1" viewBox="0 0 202 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line y1="0.5" x2="202" y2="0.5" stroke="#C1C1C1"/>
+                </svg>
+                <p class="info-bottom d-flex align-items-center justify-content-around">
+                  <span class="info-bottom__price">129 грн</span>
+                  <a href="#" class="info-bottom__buy px-4 py-2 text-uppercase">
+                    Купити
+                  </a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="main-block__item">
+
+            <div class="main-block__info">
+              <svg width="330" height="587" viewBox="0 0 330 587" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M30 26H300V452.489C292.776 452.745 287 458.542 287 465.655C287 472.768 292.776 478.564 300 478.821V553H30V478.821C30.1659 478.827 30.3326 478.83 30.5 478.83C37.9558 478.83 44 472.931 44 465.655C44 458.378 37.9558 452.48 30.5 452.48C30.3326 452.48 30.1659 452.483 30 452.489V26Z" fill="white"/>
+                </g>
+                <defs>
+                  <filter id="filter0_d" x="0" y="0" width="330" height="587" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="15"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.558333 0 0 0 0 0.0884028 0 0 0 0 0.0884028 0 0 0 0.17 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                  </filter>
+                </defs>
+              </svg>
+              <div class="main-block__content info">
+                <img src="./public/images/item.png" class="img-fluid ml-2" alt="">
+                <p class="text-center info-title">ГРУШІВКА</p>
+                <p class="d-flex justify-content-between info-item">
+                  <span>0.7 л</span>
+                  <span>Україна</span>
+                  <span>28% алк.</span>
+                </p>
+                <svg class="mb-3" width="202" height="1" viewBox="0 0 202 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line y1="0.5" x2="202" y2="0.5" stroke="#C1C1C1"/>
+                </svg>
+                <p class="info-bottom d-flex align-items-center justify-content-around">
+                  <span class="info-bottom__price">129 грн</span>
+                  <a href="#" class="info-bottom__buy px-4 py-2 text-uppercase">
+                    Купити
+                  </a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<footer class="footer py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center col-lg-12">
+        <nav class="d-flex flex-column flex-md-row justify-content-between footer-links">
+          <a class="mb-4" href="#">
+            Карта Напоїв
+          </a>
+          <a class="mb-4" href="#">
+            Меню страв
+          </a>
+          <a class="mb-4" href="#">
+            Каталог наливок
+          </a>
+          <a class="mb-4" href="#">
+            Подарункові набори
+          </a>
+          <a class="mb-4" href="#">
+            Оплата і доставка
+          </a>
+          <a href="#">
+            Контакти
+          </a>
+        </nav>
+      </div>
+    </div>
+    <div class="row mt-5 d-flex flex-column flex-md-row text-center justify-content-between">
+      <div class="col-12 mb-5 mb-md-0 col-lg-3">
+        <a href="#" class="order-table text-uppercase px-5 py-3">
+          Замовити столик
+        </a>
+      </div>
+      <div class="col-12 mb-4 mt-md-5 col-lg-6 text-center">
+        <div class="danger d-flex align-items-center justify-content-center text-center">
+              <span class="d-flex justify-content-start">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M8.85743 18.7681V11.1663H7.1001V9.21826H11.2824V18.7681H8.85743Z" fill="white" fill-opacity="0.58"/>
+<path d="M20.3959 11.6841C20.3959 12.5151 19.9463 13.2507 19.1971 13.6595C20.246 14.0953 20.8999 15.0081 20.8999 16.0707C20.8999 17.7872 19.3741 18.8771 16.9901 18.8771C14.6061 18.8771 13.0803 17.8008 13.0803 16.1117C13.0803 15.0218 13.7887 14.0953 14.8921 13.6595C14.0884 13.2099 13.5707 12.4471 13.5707 11.6161C13.5707 10.0902 14.9059 9.12305 16.9765 9.12305C19.0744 9.12305 20.3959 10.1175 20.3959 11.6841ZM15.3689 15.8664C15.3689 16.6703 15.9412 17.1198 16.9901 17.1198C18.0391 17.1198 18.6249 16.684 18.6249 15.8664C18.6249 15.0764 18.0391 14.6267 16.9901 14.6267C15.9411 14.6267 15.3689 15.0763 15.3689 15.8664ZM15.6142 11.8203C15.6142 12.5016 16.1046 12.8829 16.9901 12.8829C17.8756 12.8829 18.366 12.5016 18.366 11.8203C18.366 11.1121 17.8756 10.717 16.9901 10.717C16.1046 10.717 15.6142 11.1121 15.6142 11.8203Z" fill="white" fill-opacity="0.58"/>
+<path d="M24.9359 10.2964C25.339 11.4862 25.5435 12.7308 25.5435 14C25.5435 20.3646 20.3655 25.5426 14.0009 25.5426C7.63632 25.5426 2.45825 20.3646 2.45825 14C2.45825 7.63535 7.63624 2.45753 14.0008 2.45753C15.2703 2.45753 16.5148 2.66187 17.7045 3.06519V0.496547C16.5028 0.167133 15.2617 0 14.0009 0C6.28138 0 0.000976562 6.2804 0.000976562 14C0.000976562 21.7197 6.28138 28.0001 14.0009 28.0001C21.7205 28.0001 28.0008 21.7197 28.0008 14C28.0008 12.7393 27.8338 11.4982 27.5043 10.2964H24.9359Z" fill="white" fill-opacity="0.58"/>
+<path d="M24.2364 3.75573V1.07129H22.306V3.75573H19.6377V5.68589H22.306V8.37025H24.2364V5.68589H26.9206V3.75573H24.2364Z" fill="white" fill-opacity="0.58"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="28" height="28" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+                Надмірне споживання алкоголю шкідливе для вашого здоров'я <br>
+                Сайт призначений лише для осіб, що досягли повноліття
+              </span>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 ">
+        <p class="search text-center text-lg-right">
+          Пошук
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mt-5" style="border: 1px solid rgba(255, 255, 255, 0.3);">
+  </div>
+  <div class="container">
+    <div class="row d-flex text-center justify-content-between mt-3">
+      <div class="col-12 mb-3 mb-md-0 col-lg-3">
+            <span class="rights">
+              2020 GirskiNalyvky © All Rights Reserved.
+            </span>
+      </div>
+      <div class="col-12 mb-3 mb-md-0 col-lg-3">
+        <a href="#" class="politics">
+          Політика конфіденційності
+        </a>
+      </div>
+      <div class="col-12 col-lg-2 text-center text-lg-right">
+        <a href="#" class="siteen">
+          Made with Siteen
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
