@@ -23,14 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a60f4e0-194b-4fce-bf37-1f7d80f48f17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/delivery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_delivery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_success.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/success-order.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cart-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/product-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/delivery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/delivery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/product-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_catalog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_choice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_choice.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_details.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_intro.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/success-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/success-order.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +103,8 @@
       <workItem from="1605366322904" duration="13324000" />
       <workItem from="1605451239545" duration="12373000" />
       <workItem from="1605702771896" duration="8372000" />
-      <workItem from="1605792789709" duration="6769000" />
+      <workItem from="1605792789709" duration="7804000" />
+      <workItem from="1605873528577" duration="11549000" />
     </task>
     <servers />
   </component>
@@ -142,10 +148,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="483" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1605710534457" />
-    <state x="616" y="250" key="run.anything.popup" timestamp="1604684939216">
+    <state x="616" y="250" key="run.anything.popup" timestamp="1605893379057">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604684939216" />
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605893379057" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1605366718504">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

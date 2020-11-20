@@ -201,3 +201,10 @@ $button-width: 22px;
         color: white;
     }
 }
+
+
+@media screen and (max-width: 576px) {
+  .button_container span {
+    width: 25%;
+  }
+}

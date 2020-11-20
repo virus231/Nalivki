@@ -80,13 +80,40 @@
   display: inline-block;
   position: absolute;
   top: -10%;
-  right: -50%;
+  right: -110%;
   font-family: Oswald;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  text-decoration-line: line-through;
+  //text-decoration-line: line-through;
   color: #C4C4C4;
   text-decoration: uppercase;
+
+  small {
+    s:nth-child(2) {
+      text-decoration-line: none !important;
+      color: white;
+      background: #8E1717;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+    }
+  }
 }
 
+.order-gift {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #8E1717;
+}
+
+.alike {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #8E1717;
+}

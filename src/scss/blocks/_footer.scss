@@ -2,14 +2,19 @@
 
 .footer {
   background: #301717;
+
   &-links {
     a {
       text-decoration: none;
       text-transform: uppercase;
       color: white;
+      transition: all .33s;
+
+      &:hover {
+        color: #cd5151;
+      }
     }
   }
-
 
   .danger {
     span {
