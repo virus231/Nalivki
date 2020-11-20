@@ -77,7 +77,10 @@ $button-width: 22px;
 
 .overlay {
   position: fixed;
-  background: black;
+  background-image: url("../public/images/bg-menu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  //background: black;
   top: 0;
   left: 0;
   width: 100%;
@@ -86,9 +89,11 @@ $button-width: 22px;
   visibility: hidden;
   transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden;
+  z-index:1;
 
   &.open {
-    opacity: .9;
+    opacity: 1;
+    //opacity: .9;
     visibility: visible;
     overflow: hidden;
     height: 100%;
@@ -114,14 +119,18 @@ $button-width: 22px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 50px;
-    font-family: 'Varela Round', serif;
     font-weight: 400;
     text-align: center;
+    display: flex;
+    //align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
   }
   ul {
     list-style: none;
     padding: 0;
-    margin: 0 auto;
+    //margin: 0 auto;
     display: inline-block;
     position: relative;
     height: 100%;
@@ -129,17 +138,19 @@ $button-width: 22px;
     li {
       display: block;
       height: 25%;
-      height: calc(100% / 4);
+      height: calc(100% / 7);
       min-height: 50px;
       position: relative;
       opacity: 0;
+      text-align: left;
 
       a {
-        display: block;
+        display: inline-block;
         position: relative;
         color: $color-link;
         text-decoration: none;
         overflow: hidden;
+        text-align: left;
 
         &:hover:after,
         &:focus:after,
@@ -155,7 +166,7 @@ $button-width: 22px;
           width: 0%;
           transform: translateX(-50%);
           height: 3px;
-          background: $color-link;
+          background: #8E1717;
           transition: .35s;
         }
       }
@@ -178,6 +189,8 @@ $button-width: 22px;
     background: #8E1717;
     color: white;
     transition: all .33s;
+    border: none;
+    outline: none;
 
     &:hover {
         background: #C56767;
@@ -202,8 +215,59 @@ $button-width: 22px;
     }
 }
 
+.cart-count {
+  position: relative;
+
+  small {
+    position: absolute;
+    right: -20%;
+    bottom: -23%;
+
+    span {
+      display: inline-block;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 14px;
+      background: #8E1717;
+      border-radius: 50%;
+      color: white;
+      width: 21px;
+      height: 21px;
+    }
+  }
+}
+
 
 @media screen and (max-width: 576px) {
+  .overlay {
+    background-image: url("../public/images/bg-mobile.png");
+    background-repeat: no-repeat;
+  }
+
+  .overlay-menu .contacts-block {
+    display: none;
+  }
+
+  .overlay nav {
+    height: 85%;
+  }
+
+  .overlay ul li {
+    text-align: center;
+    height: calc(100% / 16);
+  }
+
+  .label-info {
+    display: inline-block !important;
+  }
+
+  .overlay ul li a {
+    font-size: 20px;
+    text-align: center;
+  }
+
   .button_container span {
     width: 25%;
   }

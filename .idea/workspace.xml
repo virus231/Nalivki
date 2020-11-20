@@ -23,18 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a60f4e0-194b-4fce-bf37-1f7d80f48f17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/public/images/bg-menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/bg-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/bumper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/delivery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/delivery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/product-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/product-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_choice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_choice.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_details.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_intro.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_order.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/success-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/success-order.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +107,7 @@
       <workItem from="1605451239545" duration="12373000" />
       <workItem from="1605702771896" duration="8372000" />
       <workItem from="1605792789709" duration="7804000" />
-      <workItem from="1605873528577" duration="11549000" />
+      <workItem from="1605873528577" duration="21753000" />
     </task>
     <servers />
   </component>

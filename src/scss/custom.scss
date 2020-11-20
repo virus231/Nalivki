@@ -2,6 +2,10 @@
 // Your customize CSS
 body {
     font-family: 'Oswald', 'Raleway', sans-serif;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 ul,li {
